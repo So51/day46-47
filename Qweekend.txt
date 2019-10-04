@@ -1,0 +1,7 @@
+var Student = new Array ("Reem", "Amal", "Sara" , "Nora" , "Tala");
+var GPA = new Array ("4,50", "3.90", "2.75", "1.66", "3.45");
+for ( var n in Student ){
+  document.write ("Student name : " + Student[n] + " | GPA:"+ GPA[n]+"<br>" )
+}
+
+
